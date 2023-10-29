@@ -669,7 +669,7 @@ RectTransform:
   m_GameObject: {fileID: 201087284}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.78789, y: 0.78789, z: 0.78789}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 527638051}
@@ -677,7 +677,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -65, y: 74}
+  m_AnchoredPosition: {x: -528, y: -98}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &201087286
@@ -693,7 +693,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _textArea: {fileID: 201087287}
-  _textDialog: "\u0412\u044B \u043F\u043E\u0433\u0438\u0431\u043B\u0438!"
+  _textDialog: "\u041C\u0430\u043B\u044C\u0447\u0438\u043A \u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440
+    \u043F\u043E\u0433\u0438\u0431.. \u043D\u043E \u0443\u0447\u0435\u043D\u044B\u0435
+    \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u043B\u0438, \u0447\u0442\u043E
+    \u0435\u043C\u0443 \u0441\u043D\u044F\u0442\u044C\u0441\u044F \u0441\u043D\u044B...
+    \u0438 \u0414\u0436\u0435\u043A \u043A\u0430\u0436\u0434\u0443\u044E \u043D\u043E\u0447\u044C
+    \u0435\u0433\u043E \u043C\u0443\u0447\u0430\u0435\u0442"
 --- !u!114 &201087287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,7 +719,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0412\u044B \u043F\u043E\u0433\u0438\u0431\u043B\u0438!"
+  m_text: "\u041C\u0430\u043B\u044C\u0447\u0438\u043A \u0410\u043B\u0435\u043A\u0441\u0430\u043D\u0434\u0440
+    \u043F\u043E\u0433\u0438\u0431..\n\u043D\u043E \u0443\u0447\u0435\u043D\u044B\u0435
+    \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u043B\u0438, \u0447\u0442\u043E
+    \u0435\u043C\u0443 \u0441\u043D\u044F\u0442\u044C\u0441\u044F \u0441\u043D\u044B...
+    \u0438 \u0414\u0436\u0435\u043A \u043A\u0430\u0436\u0434\u0443\u044E \u043D\u043E\u0447\u044C
+    \u0435\u0433\u043E \u043C\u0443\u0447\u0430\u0435\u0442"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f7475472526b3ee4eb8839f3510776a5, type: 2}
   m_sharedMaterial: {fileID: 2728522040871072991, guid: f7475472526b3ee4eb8839f3510776a5, type: 2}
@@ -741,8 +751,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 140
-  m_fontSizeBase: 140
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -777,7 +787,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -463.22498, y: 0, z: -590.074, w: -101.38253}
+  m_margin: {x: -463.22498, y: -327.91785, z: -1746.6826, w: -101.38253}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
