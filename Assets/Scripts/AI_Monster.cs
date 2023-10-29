@@ -50,7 +50,6 @@ public class AI_Monster : MonoBehaviour
         float Dist_Player = Vector3.Distance(Player.transform.position, gameObject.transform.position);
         if (Dist_Player < 2)
         {
-            Player.SetActive(false);
             SceneManager.LoadScene("GameOver");
         }
     }
