@@ -3,6 +3,8 @@ using UnityEngine;
 public class Key : MonoBehaviour, IInteractable
 {
     public GameObject KeyPrefab;
+    public AudioSource AudioSource;
+    public AudioClip KeyFx;
 
     void Start()
     {
@@ -15,7 +17,8 @@ public class Key : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        Destroy(gameObject);
+        AudioSource.PlayOneShot(KeyFx);
+        Destroy(gameObject, 1f);
         KeyPrefab.SetActive(true);
         Player.KeyCount++;
     }

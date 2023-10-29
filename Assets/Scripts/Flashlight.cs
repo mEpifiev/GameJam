@@ -3,6 +3,8 @@ using UnityEngine;
 public class Flashlight : MonoBehaviour, IInteractable
 {
     public GameObject flashlight;
+    public AudioSource AudioSource;
+    public AudioClip FlashFx;
 
     void Start()
     {
@@ -15,8 +17,9 @@ public class Flashlight : MonoBehaviour, IInteractable
 
     public void Interact()
     {
+        AudioSource.PlayOneShot(FlashFx);
         PlayerInteraction.FlashlightInHand = true;
-        Destroy(gameObject);
+        Destroy(gameObject, 0.5f);
         flashlight.SetActive(true);
 
 

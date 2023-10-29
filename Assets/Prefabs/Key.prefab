@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KeyPrefab: {fileID: 354584155214701618}
   AudioSource: {fileID: 491585398616516918}
-  UpFx: {fileID: 8300000, guid: 4d578eb24b0d48a4cad87d7e032459b2, type: 3}
+  KeyFx: {fileID: 8300000, guid: 4d578eb24b0d48a4cad87d7e032459b2, type: 3}
 --- !u!64 &7995621272595721020
 MeshCollider:
   m_ObjectHideFlags: 0
